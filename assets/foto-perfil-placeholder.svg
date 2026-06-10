@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Espacio para fotografia personal</title>
+  <desc id="desc">Placeholder minimalista para reemplazar por una foto personal.</desc>
+  <rect width="800" height="1000" fill="#e9ceae"/>
+  <path d="M0 780 C180 700 260 820 430 745 C570 683 650 604 800 650 L800 1000 L0 1000 Z" fill="#b75e3c"/>
+  <circle cx="400" cy="355" r="126" fill="#fffaf2"/>
+  <path d="M215 740 C236 608 309 535 400 535 C491 535 564 608 585 740 Z" fill="#fffaf2"/>
+  <rect x="96" y="92" width="608" height="816" rx="20" fill="none" stroke="#224667" stroke-width="10" stroke-dasharray="24 20"/>
+  <text x="400" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#173247">Foto personal</text>
+</svg>

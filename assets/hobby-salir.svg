@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Salir</title>
+  <desc id="desc">Placeholder para una fotografia saliendo o conociendo lugares.</desc>
+  <rect width="900" height="620" fill="#e9ceae"/>
+  <path d="M96 456 C220 260 310 210 450 402 C560 250 650 206 804 456 Z" fill="#fffaf2"/>
+  <path d="M148 456 C256 334 356 310 450 456 Z" fill="#b75e3c"/>
+  <path d="M450 456 C576 290 670 318 774 456 Z" fill="#224667"/>
+  <circle cx="692" cy="148" r="66" fill="#b75e3c"/>
+  <path d="M0 506 H900 V620 H0 Z" fill="#fffaf2"/>
+  <path d="M450 516 C380 554 318 584 270 620 H630 C582 584 520 554 450 516 Z" fill="#dcc2a0"/>
+  <text x="450" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#173247">Salir</text>
+</svg>

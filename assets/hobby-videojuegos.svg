@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Videojuegos</title>
+  <desc id="desc">Placeholder para una fotografia relacionada con videojuegos.</desc>
+  <rect width="900" height="620" fill="#e9ceae"/>
+  <rect x="215" y="170" width="470" height="280" rx="80" fill="#224667"/>
+  <circle cx="340" cy="310" r="88" fill="#fffaf2"/>
+  <rect x="316" y="256" width="48" height="108" rx="10" fill="#b75e3c"/>
+  <rect x="286" y="286" width="108" height="48" rx="10" fill="#b75e3c"/>
+  <circle cx="548" cy="280" r="30" fill="#fffaf2"/>
+  <circle cx="606" cy="338" r="30" fill="#b75e3c"/>
+  <path d="M170 210 C110 110 40 135 55 230" fill="none" stroke="#b75e3c" stroke-width="18" stroke-linecap="round"/>
+  <path d="M730 210 C790 110 860 135 845 230" fill="none" stroke="#b75e3c" stroke-width="18" stroke-linecap="round"/>
+  <text x="450" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#173247">Videojuegos</text>
+</svg>

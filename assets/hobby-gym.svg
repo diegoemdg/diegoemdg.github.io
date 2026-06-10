@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Gym</title>
+  <desc id="desc">Placeholder para una fotografia de gimnasio.</desc>
+  <rect width="900" height="620" fill="#e9ceae"/>
+  <rect x="110" y="282" width="680" height="56" rx="28" fill="#224667"/>
+  <rect x="66" y="240" width="68" height="140" rx="12" fill="#b75e3c"/>
+  <rect x="766" y="240" width="68" height="140" rx="12" fill="#b75e3c"/>
+  <rect x="166" y="218" width="48" height="184" rx="10" fill="#fffaf2"/>
+  <rect x="686" y="218" width="48" height="184" rx="10" fill="#fffaf2"/>
+  <circle cx="450" cy="310" r="92" fill="#fffaf2" stroke="#dcc2a0" stroke-width="6"/>
+  <path d="M410 330 L448 250 L492 330" fill="none" stroke="#b75e3c" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#173247">Gym</text>
+</svg>

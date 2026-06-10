@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CV - Diego Emilio De la Rosa Gamiño</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: #343235;
+      background: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.4;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 17mm 16mm 0;
+      background: #ffffff;
+    }
+
+    .hero {
+      padding: 0 12mm 15mm;
+    }
+
+    h1 {
+      margin: 0;
+      color: #343235;
+      font-size: 30pt;
+      line-height: 0.98;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .role {
+      margin: 2mm 0 6mm;
+      color: #343235;
+      font-size: 16pt;
+      font-weight: 400;
+    }
+
+    .contact-line {
+      margin: 0;
+      color: #171717;
+      font-size: 10.7pt;
+    }
+
+    .body-grid {
+      display: grid;
+      grid-template-columns: 74mm 1fr;
+      min-height: 222mm;
+      border-top: 1.2px solid #343235;
+    }
+
+    .side {
+      padding: 22mm 12mm 12mm;
+      border-right: 1.2px solid #343235;
+      background: #f4f4f4;
+    }
+
+    .main {
+      padding: 22mm 0 12mm 13mm;
+      background: #ffffff;
+    }
+
+    section {
+      margin-bottom: 12mm;
+      break-inside: avoid;
+    }
+
+    h2 {
+      margin: 0 0 7mm;
+      color: #343235;
+      font-size: 15.5pt;
+      font-weight: 800;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      margin: 0;
+      color: #343235;
+      font-size: 10.7pt;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin: 0;
+      color: #737373;
+      font-size: 10pt;
+    }
+
+    .muted {
+      color: #737373;
+      font-weight: 400;
+      text-transform: none;
+    }
+
+    .edu-item,
+    .project-item {
+      margin-bottom: 8mm;
+    }
+
+    .date {
+      color: #343235;
+      font-size: 10.4pt;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .project-head {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8mm;
+      align-items: start;
+      margin-bottom: 2mm;
+    }
+
+    ul {
+      margin: 2mm 0 0;
+      padding-left: 5mm;
+      color: #737373;
+      font-size: 10pt;
+    }
+
+    li {
+      margin-bottom: 2mm;
+      padding-left: 1mm;
+    }
+
+    .summary {
+      max-width: 112mm;
+    }
+
+    .references {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12mm;
+    }
+
+    .references p {
+      margin-top: 1mm;
+      font-size: 9.4pt;
+    }
+
+    .label {
+      color: #343235;
+      font-weight: 800;
+    }
+
+    .language-list {
+      margin-top: -1mm;
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <h1>Diego Emilio De la Rosa Gamiño</h1>
+      <p class="role">Estudiante de Ingenieria en Sistemas Computacionales</p>
+      <p class="contact-line">Ciudad de Mexico | diegoemilio.gamino@gmail.com | github.com/diegoemdg | 5528853683</p>
+    </header>
+
+    <div class="body-grid">
+      <aside class="side">
+        <section>
+          <h2>Educacion:</h2>
+          <article class="edu-item">
+            <h3>ESCOM IPN</h3>
+            <p class="date">6.º semestre</p>
+            <p>Ingenieria en Sistemas Computacionales</p>
+          </article>
+          <article class="edu-item">
+            <h3>Instituto Politecnico Nacional</h3>
+            <p>Formacion enfocada en programacion, bases de datos, sistemas y seguridad informatica.</p>
+          </article>
+        </section>
+
+        <section>
+          <h2>Skills:</h2>
+          <ul>
+            <li>HTML</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Next.js</li>
+            <li>Express</li>
+            <li>Desarrollo web</li>
+            <li>Bases de datos</li>
+            <li>Seguridad basica</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Language:</h2>
+          <ul class="language-list">
+            <li>Español</li>
+            <li>Ingles</li>
+          </ul>
+        </section>
+      </aside>
+
+      <div class="main">
+        <section>
+          <h2>Summary:</h2>
+          <p class="summary">
+            Estudiante de Ingenieria en Sistemas Computacionales con interes en desarrollo web, seguridad informatica
+            y bases de datos. Me gusta crear soluciones funcionales, ordenadas y faciles de usar, combinando logica,
+            aprendizaje constante y buenas practicas de desarrollo.
+          </p>
+        </section>
+
+        <section>
+          <h2>Experience:</h2>
+          <article class="project-item">
+            <div class="project-head">
+              <div>
+                <h3>Sistema Web para Gimnasio</h3>
+                <p class="label">GestiFit</p>
+              </div>
+              <span class="date">2025 - 2026</span>
+            </div>
+            <ul>
+              <li>Gestion de usuarios, membresias, pagos, clases grupales y reservas.</li>
+              <li>Organizacion de datos e interfaces claras para procesos administrativos.</li>
+              <li>Desarrollo de funcionalidades web para un escenario academico realista.</li>
+            </ul>
+          </article>
+
+          <article class="project-item">
+            <div class="project-head">
+              <div>
+                <h3>Sistema de Login Seguro</h3>
+                <p class="label">Proyecto academico</p>
+              </div>
+              <span class="date">2025 - 2026</span>
+            </div>
+            <ul>
+              <li>Registro de usuarios y validacion de sesiones.</li>
+              <li>Hash de contrasenas y recuperacion de cuenta.</li>
+              <li>Separacion entre interfaz web y logica del servidor.</li>
+            </ul>
+          </article>
+
+          <article class="project-item">
+            <div class="project-head">
+              <div>
+                <h3>Sistema web para tienda de articulos</h3>
+                <p class="label">Woox</p>
+              </div>
+              <span class="date">2026</span>
+            </div>
+            <ul>
+              <li>Proyecto realizado en dos semanas.</li>
+              <li>Administracion de articulos y flujo basico de tienda.</li>
+              <li>Planeacion rapida de vistas, estructura y funcionalidades principales.</li>
+            </ul>
+          </article>
+        </section>
+
+        <section>
+          <h2>References:</h2>
+          <div class="references">
+            <article>
+              <h3>ESCOM IPN</h3>
+              <p>Instituto Politecnico Nacional</p>
+              <p><span class="label">Area:</span> Formacion academica</p>
+            </article>
+            <article>
+              <h3>Portafolio</h3>
+              <p>Proyectos academicos</p>
+              <p><span class="label">GitHub:</span> diegoemdg</p>
+            </article>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
