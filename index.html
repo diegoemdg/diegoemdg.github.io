@@ -190,7 +190,7 @@
         <article class="key-card">
           <div class="key-card-head">
             <div>
-              <h3>Mi llave publica</h3>
+              <h3>Mi llave publica actual</h3>
             </div>
             <a class="small-link" href="public_key.txt">Abrir archivo</a>
           </div>
@@ -201,6 +201,42 @@ Sb4bis0lr0sMUYFAq4vW3abcySaPTXvnxAobPW7J+FImiXf2f6+qNalMA2wyEGr8
 UCHX7xUcGwaLWuh8sApomIaR6DLkP4miHoCfm43q4vqAF2+4zCgttqCAZv3bJzJ/
 fyeoXDD+fdALJcdvk/oZDLp5b8YAaItP0OMi05i7YMEuVBrQb0vOEWh79jOVYyTZ
 FwIDAQAB</code></pre>
+
+          <div class="key-generator" data-rsa-generator>
+            <div class="key-generator-head">
+              <div>
+                <p class="eyebrow">Generador RSA-2048</p>
+                <h3>Generar llave publica</h3>
+              </div>
+              <span class="key-badge">RSA-OAEP / SHA-256</span>
+            </div>
+
+            <form class="key-form" data-key-form>
+              <label for="key-owner">Propietario</label>
+              <div class="key-form-row">
+                <input id="key-owner" name="owner" type="text" value="Diego Emilio" autocomplete="name">
+                <button class="button primary" type="submit">Generar llave</button>
+              </div>
+            </form>
+
+            <p class="key-status" data-key-status>Listo para generar una llave RSA-2048.</p>
+
+            <label class="key-output-label" for="generated-public-key">Llave publica generada</label>
+            <textarea id="generated-public-key" class="key-output" readonly placeholder="Aqui aparecera la llave publica en formato PEM."></textarea>
+            <div class="key-actions">
+              <button class="small-link" type="button" data-key-action="copy-public" disabled>Copiar publica</button>
+              <button class="small-link" type="button" data-key-action="download-public" disabled>Descargar publica</button>
+            </div>
+
+            <details class="private-key-panel">
+              <summary>Llave privada generada</summary>
+              <textarea id="generated-private-key" class="key-output" readonly placeholder="Aqui aparecera la llave privada. Guardala en un lugar seguro."></textarea>
+              <div class="key-actions">
+                <button class="small-link" type="button" data-key-action="copy-private" disabled>Copiar privada</button>
+                <button class="small-link" type="button" data-key-action="download-private" disabled>Descargar privada</button>
+              </div>
+            </details>
+          </div>
         </article>
       </div>
     </section>
@@ -210,5 +246,6 @@ FwIDAQAB</code></pre>
     <strong>Diego Emilio De la Rosa Gamiño</strong>
     <span>Pagina Web Personal | ESCOM IPN | 2026</span>
   </footer>
+  <script src="rsa-keygen.js"></script>
 </body>
 </html>
